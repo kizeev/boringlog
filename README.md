@@ -45,19 +45,19 @@ Python 3.10+ (uses PEP 604 `X | Y` type unions). No third-party dependencies.
 `boringlog` is a single dependency-free module. Install it straight from GitHub:
 
 ```bash
-pip install git+https://github.com/<your-username>/boringlog.git
+pip install git+https://github.com/kizeev/boringlog.git
 ```
 
 In `requirements.txt`:
 
 ```
-boringlog @ git+https://github.com/<your-username>/boringlog.git
+boringlog @ git+https://github.com/kizeev/boringlog.git
 ```
 
 Pin to a tag (recommended, so a service doesn't drift when you change the library):
 
 ```
-boringlog @ git+https://github.com/<your-username>/boringlog.git@v0.1.0
+boringlog @ git+https://github.com/kizeev/boringlog.git@v0.1.0
 ```
 
 Or just copy `src/boringlog/` into your project — it has no dependencies.
